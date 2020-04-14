@@ -4,7 +4,7 @@
 require "selenium-webdriver"
 require "rubygems"
 require "bundler"
-
+require "cucumber"
 
 module Actionwords
   def that_the_user_has_navigated_over_to_the_smartstore
