@@ -12,4 +12,4 @@ gem 'cucumber'
 gem 'test-unit'
 gem 'selenium-webdriver'
 gem 'ffi'
-gem 'bundler'
+
