@@ -9,3 +9,4 @@ ruby '2.5.3'
 gem "cucumber"
 gem "selenium-webdriver"
 gem "ffi"
+gem "rake"
