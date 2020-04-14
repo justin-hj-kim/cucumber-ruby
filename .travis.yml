@@ -7,7 +7,7 @@ before_install:
  - "hiptest-publisher -c hiptest-publisher.conf --token=207233293921290597634285569888014368421957412936171795605 --only=features,step_definitions --test-run-id=389046"
 
 script:
-- bundle update cucumber-core
+ - bundle --full-index
  - bundle exec cucumber --format json --out results.json
 
 after_script:
