@@ -1,0 +1,349 @@
+[
+  {
+    "uri": "features/smartstore.feature",
+    "id": "smartstore",
+    "keyword": "Feature",
+    "name": "Smartstore",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@Smart",
+        "line": 1
+      },
+      {
+        "name": "@Ecom",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "smartstore;login-pass-(uid:5fb71e05-20f0-447c-a5e7-88e685c2b7f1)",
+        "keyword": "Scenario",
+        "name": "Login Pass (uid:5fb71e05-20f0-447c-a5e7-88e685c2b7f1)",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Smart",
+            "line": 1
+          },
+          {
+            "name": "@Ecom",
+            "line": 1
+          },
+          {
+            "name": "@JIRA-KIM-8",
+            "line": 5
+          },
+          {
+            "name": "@Login",
+            "line": 5
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "that the user has navigated over to the smartstore",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7599787900
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks login",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591876300
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user provides proper credentials",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1144415600
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be able to log in",
+            "line": 10,
+            "output": [
+              "Login Failed"
+            ],
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44841400
+            }
+          }
+        ]
+      },
+      {
+        "id": "smartstore;login-fail-(uid:499aed20-e212-4fc2-9b8e-79a16e8a88a5)",
+        "keyword": "Scenario",
+        "name": "Login Fail (uid:499aed20-e212-4fc2-9b8e-79a16e8a88a5)",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Smart",
+            "line": 1
+          },
+          {
+            "name": "@Ecom",
+            "line": 1
+          },
+          {
+            "name": "@Login",
+            "line": 12
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "that the user has navigated over to the smartstore",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5223316400
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user clicks login",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 723083100
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user provides invalid credentials",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1022764900
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the website should reject their login",
+            "line": 17,
+            "output": [
+              "Valid credentials"
+            ],
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78837200
+            }
+          }
+        ]
+      },
+      {
+        "id": "smartstore;checkout-(uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)",
+        "keyword": "Scenario",
+        "name": "Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Smart",
+            "line": 1
+          },
+          {
+            "name": "@Ecom",
+            "line": 1
+          },
+          {
+            "name": "@Ecom",
+            "line": 19
+          },
+          {
+            "name": "@Checkout",
+            "line": 19
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "that the user has navigated over to the smartstore",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6125115900
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user types something into the search bar",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1480215100
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user selects that item",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5879143200
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "adds it to the card",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262257000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user can checkout the item",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "element click intercepted: Element <span>...</span> is not clickable at point (1335, 556). Other element would receive the click: <div class=\"canvas-blocker canvas-slidable\"></div>\n  (Session info: chrome=81.0.4044.92) (Selenium::WebDriver::Error::ElementClickInterceptedError)\nBacktrace:\n\tOrdinal0 [0x00B70C83+1707139]\n\tOrdinal0 [0x00AD68F1+1075441]\n\tOrdinal0 [0x00A4DFC9+516041]\n\tOrdinal0 [0x009EC029+114729]\n\tOrdinal0 [0x009EB260+111200]\n\tOrdinal0 [0x009E9F5E+106334]\n\tOrdinal0 [0x009E9770+104304]\n\tOrdinal0 [0x009E3AD1+80593]\n\tOrdinal0 [0x009F9E9D+171677]\n\tOrdinal0 [0x009E3916+80150]\n\tOrdinal0 [0x009FA0E1+172257]\n\tOrdinal0 [0x00A030F4+209140]\n\tOrdinal0 [0x009F9D4B+171339]\n\tOrdinal0 [0x009E1D4A+73034]\n\tOrdinal0 [0x009E2DC0+77248]\n\tOrdinal0 [0x009E2D59+77145]\n\tOrdinal0 [0x00AEBB67+1162087]\n\tGetHandleVerifier [0x00C0A966+508998]\n\tGetHandleVerifier [0x00C0A6A4+508292]\n\tGetHandleVerifier [0x00C1F7B7+594583]\n\tGetHandleVerifier [0x00C0B1D6+511158]\n\tOrdinal0 [0x00AE402C+1130540]\n\tOrdinal0 [0x00AED4CB+1168587]\n\tOrdinal0 [0x00AED633+1168947]\n\tOrdinal0 [0x00B05B35+1268533]\n\tBaseThreadInitThunk [0x75D30419+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C4662D+237]\n\tRtlGetAppContainerNamedObjectPath [0x77C465FD+189]\n./features/step_definitions/actionwords.rb:66:in `the_user_can_checkout_the_item'\n./features/step_definitions/step_definitions.rb:43:in `/^the user can checkout the item$/'\nfeatures/smartstore.feature:25:in `Then the user can checkout the item'",
+              "duration": 1231786900
+            }
+          }
+        ]
+      },
+      {
+        "id": "smartstore;contactus-(uid:2a71a9db-2887-4df9-95dd-ace88760a8a6)",
+        "keyword": "Scenario",
+        "name": "ContactUS (uid:2a71a9db-2887-4df9-95dd-ace88760a8a6)",
+        "description": "",
+        "line": 28,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@Smart",
+            "line": 1
+          },
+          {
+            "name": "@Ecom",
+            "line": 1
+          },
+          {
+            "name": "@Smart",
+            "line": 27
+          },
+          {
+            "name": "@ContactUs",
+            "line": 27
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "that the user has navigated over to the smartstore",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5238293300
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "the user clicks on contact us button",
+            "line": 30,
+            "match": {
+              "location": "features/smartstore.feature:30"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user fills out the name, email, and inquiry fields",
+            "line": 31,
+            "match": {
+              "location": "features/smartstore.feature:31"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "presses submit",
+            "line": 32,
+            "match": {
+              "location": "features/smartstore.feature:32"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the store should display a successful inquiry message.",
+            "line": 33,
+            "match": {
+              "location": "features/smartstore.feature:33"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

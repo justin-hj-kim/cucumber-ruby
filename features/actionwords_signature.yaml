@@ -1,0 +1,57 @@
+---
+- name: that the user has navigated over to the smartstore
+  uid: 54870123-3a0b-4106-bfdc-137ddef536c5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user clicks login
+  uid: 97ff78b6-af83-4517-94f3-566fcbc6260d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user provides proper credentials
+  uid: a1dc57b7-6283-439a-9a04-73647709605f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user should be able to log in
+  uid: da2832ed-0588-4323-9c36-8a45a6123155
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user provides invalid credentials
+  uid: 7448905d-1ed0-450a-9121-d26614d1481e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the website should reject their login
+  uid: 3c4765ad-0409-4779-8aae-0b5e5b0977f7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user types something into the search bar
+  uid: d8db3d45-59eb-4f10-99a4-c45cf0fdf1d5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user selects that item
+  uid: 9c5194c0-ae1c-4fb9-be29-694a6e050cb3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: adds it to the card
+  uid: fef17efd-d906-465c-b043-3c073f159f58
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user can checkout the item
+  uid: 91ec3c18-0f90-42ea-b812-b524f8901d64
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user clicks on contact us button
+  uid: fcf8cb50-318c-4e7b-93d2-1b7875f8d91b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the user fills out the name, email, and inquiry fields
+  uid: 2d5891d9-40b1-40dc-bc68-30d085e3dfae
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: presses submit
+  uid: 5bfbc222-ef27-4cb0-bca0-c42f12d51b89
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the store should display a successful inquiry message.
+  uid: b8ceec02-986c-463e-822f-e68a42d05b65
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
