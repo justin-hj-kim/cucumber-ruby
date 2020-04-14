@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7599787900
+              "duration": 7059886300
             }
           },
           {
@@ -64,7 +64,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 591876300
+              "duration": 460821700
             }
           },
           {
@@ -76,7 +76,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1144415600
+              "duration": 883713400
             }
           },
           {
@@ -91,7 +91,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 44841400
+              "duration": 65903600
             }
           }
         ]
@@ -127,7 +127,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5223316400
+              "duration": 4706358400
             }
           },
           {
@@ -139,7 +139,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 723083100
+              "duration": 788301400
             }
           },
           {
@@ -151,7 +151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1022764900
+              "duration": 978639600
             }
           },
           {
@@ -166,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 78837200
+              "duration": 112486800
             }
           }
         ]
@@ -206,7 +206,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6125115900
+              "duration": 6765915000
             }
           },
           {
@@ -218,7 +218,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1480215100
+              "duration": 1309554100
             }
           },
           {
@@ -230,7 +230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5879143200
+              "duration": 5701615100
             }
           },
           {
@@ -242,7 +242,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 262257000
+              "duration": 88813500
             }
           },
           {
@@ -253,9 +253,8 @@
               "location": "features/step_definitions/step_definitions.rb:42"
             },
             "result": {
-              "status": "failed",
-              "error_message": "element click intercepted: Element <span>...</span> is not clickable at point (1335, 556). Other element would receive the click: <div class=\"canvas-blocker canvas-slidable\"></div>\n  (Session info: chrome=81.0.4044.92) (Selenium::WebDriver::Error::ElementClickInterceptedError)\nBacktrace:\n\tOrdinal0 [0x00B70C83+1707139]\n\tOrdinal0 [0x00AD68F1+1075441]\n\tOrdinal0 [0x00A4DFC9+516041]\n\tOrdinal0 [0x009EC029+114729]\n\tOrdinal0 [0x009EB260+111200]\n\tOrdinal0 [0x009E9F5E+106334]\n\tOrdinal0 [0x009E9770+104304]\n\tOrdinal0 [0x009E3AD1+80593]\n\tOrdinal0 [0x009F9E9D+171677]\n\tOrdinal0 [0x009E3916+80150]\n\tOrdinal0 [0x009FA0E1+172257]\n\tOrdinal0 [0x00A030F4+209140]\n\tOrdinal0 [0x009F9D4B+171339]\n\tOrdinal0 [0x009E1D4A+73034]\n\tOrdinal0 [0x009E2DC0+77248]\n\tOrdinal0 [0x009E2D59+77145]\n\tOrdinal0 [0x00AEBB67+1162087]\n\tGetHandleVerifier [0x00C0A966+508998]\n\tGetHandleVerifier [0x00C0A6A4+508292]\n\tGetHandleVerifier [0x00C1F7B7+594583]\n\tGetHandleVerifier [0x00C0B1D6+511158]\n\tOrdinal0 [0x00AE402C+1130540]\n\tOrdinal0 [0x00AED4CB+1168587]\n\tOrdinal0 [0x00AED633+1168947]\n\tOrdinal0 [0x00B05B35+1268533]\n\tBaseThreadInitThunk [0x75D30419+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C4662D+237]\n\tRtlGetAppContainerNamedObjectPath [0x77C465FD+189]\n./features/step_definitions/actionwords.rb:66:in `the_user_can_checkout_the_item'\n./features/step_definitions/step_definitions.rb:43:in `/^the user can checkout the item$/'\nfeatures/smartstore.feature:25:in `Then the user can checkout the item'",
-              "duration": 1231786900
+              "status": "passed",
+              "duration": 66920200
             }
           }
         ]
@@ -295,7 +294,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5238293300
+              "duration": 4890477900
             }
           },
           {
