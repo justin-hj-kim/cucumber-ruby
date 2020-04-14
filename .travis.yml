@@ -1,0 +1,13 @@
+language: ruby
+rvm: 2.5.5
+sudo: false
+
+before_install:
+ - gem install hiptest-publisher
+ - "hiptest-publisher -c cucumber.conf --token=207233293921290597634285569888014368421957412936171795605 --only=features,step_definitions --test-run-id=389046"
+
+script:
+ - bundle exec cucumber --format json --out results.json
+
+after_script:
+ - hiptest-publisher -c cucumber.conf --token=207233293921290597634285569888014368421957412936171795605 --push=results.json --test-run-id=389046
