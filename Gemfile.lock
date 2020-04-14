@@ -2,18 +2,18 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.17.1)
-    builder (3.2.4)
+    builder (3.2.3)
     childprocess (3.0.0)
-    cucumber (3.1.2)
+    cucumber (2.1.0)
       builder (>= 2.1.2)
-      cucumber-core (~> 3.2.0)
+      cucumber-core (~> 1.3.0)
       cucumber-expressions (~> 6.0.1)
       cucumber-wire (~> 0.0.1)
       diff-lcs (~> 1.3)
       gherkin (~> 5.1.0)
       multi_json (>= 1.7.5, < 2.0)
       multi_test (>= 0.1.2)
-    cucumber-core (3.2.1)
+    cucumber-core (1.3.0)
       backports (>= 3.8.0)
       cucumber-tag_expressions (~> 1.1.0)
       gherkin (~> 5.0)
@@ -33,7 +33,7 @@ GEM
       power_assert
 
 PLATFORMS
-  ["ruby", "x86_64-linux"]
+  "ruby"
 
 DEPENDENCIES
   cucumber
@@ -44,4 +44,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   1.7.4
+   1.17.3
