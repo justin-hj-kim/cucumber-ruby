@@ -34,7 +34,7 @@ GEM
       power_assert
 
 PLATFORMS
-  x64-mingw32
+  ["ruby", "x86_64-linux"]
 
 DEPENDENCIES
   cucumber
@@ -46,4 +46,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   2.1.4
+   1.7.4
