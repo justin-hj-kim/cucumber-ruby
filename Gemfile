@@ -7,8 +7,6 @@ ruby '2.5.3'
 
 # gem "rails"
 gem "cucumber"
-gem "rubygems"
-gem "cucumber/rake/task"
 gem "selenium-webdriver"
 gem "ffi"
 gem "rake"
