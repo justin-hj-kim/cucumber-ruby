@@ -3,7 +3,7 @@
 # encoding: UTF-8
 require "selenium-webdriver"
 require "rubygems"
-
+require "bundler"
 
 
 module Actionwords
