@@ -30,6 +30,7 @@ module Actionwords
     else
       puts "Login Failed"
     end
+    $driver.quit
     #assert($driver.find_element(:xpath,"//*[@id=\"menubar-my-account\"]/div/a/span").text.include?("hkim5"), "Page contains the username")
   end
 
@@ -46,6 +47,7 @@ module Actionwords
     else
       puts "Valid credentials"
     end
+    $driver.quit
     #assert($driver.find_element(:xpath, "//*[@id=\"content-center\"]/div/div[2]/div[1]/div/div/span").text.include?("Login was unsuccessful. Please correct and try again"), "Login Rejected")
   end
 
@@ -64,6 +66,7 @@ module Actionwords
 
   def the_user_can_checkout_the_item
     $driver.find_element(:css, "#pd-form > section > aside > div.pd-offer > div.pd-offer-actions-container > div > div.col.flex-grow-1 > a > span").click
+    $driver.quit
   end
 
   #fill out the rest when possible.

@@ -7,5 +7,5 @@ require 'cucumber/rake/task'
 
 
 Cucumber::Rake::Task.new(:features) do |t|
-  t.cucumber_opts = "--format json --out results.json" # Any valid command line option can go here.
+  t.cucumber_opts = "--format pretty, --format json --out results.json" # Any valid command line option can go here.
 end
