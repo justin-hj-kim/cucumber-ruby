@@ -1,6 +1,7 @@
 language: ruby
 rvm: 2.5.3
 sudo: false
+os: windows
 
 before_install:
  - gem install hiptest-publisher
