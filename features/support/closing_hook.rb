@@ -9,4 +9,3 @@ After do |scenario|
 After do 
     $driver.quit
   end
-end
