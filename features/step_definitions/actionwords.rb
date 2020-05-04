@@ -6,6 +6,7 @@ require "bundler"
 require "cucumber"
 
 module Actionwords
+
   def that_the_user_has_navigated_over_to_the_smartstore
     $driver = Selenium::WebDriver.for :firefox
     $driver.navigate.to("http://services.smartbear.com/samples/TestComplete12/smartstore")
@@ -25,7 +26,6 @@ module Actionwords
   def the_user_should_be_able_to_log_in
     username =  $driver.find_element(:xpath,"//*[@id=\"menubar-my-account\"]/div/a/span").text
     expect(username) .to eq("HKIM5"), "Expected the balance to be hkim5, but was #{username}"
-    $driver.quit
     #assert($driver.find_element(:xpath,"//*[@id=\"menubar-my-account\"]/div/a/span").text.include?("hkim5"), "Page contains the username")
   end
 
@@ -38,7 +38,6 @@ module Actionwords
   def the_website_should_reject_their_login
     notloggedin = $driver.find_element(:xpath, "//*[@id=\"content-center\"]/div/div[2]/div[1]/div/div/span").text
     expect(notloggedin) .to include("unsuccessful"), "Expected the message: Login was unsuccessful, but it displayed #{notloggedin}"
-    $driver.quit
     #assert($driver.find_element(:xpath, "//*[@id=\"content-center\"]/div/div[2]/div[1]/div/div/span").text.include?("Login was unsuccessful. Please correct and try again"), "Login Rejected")
   end
 

@@ -1,11 +1,20 @@
-=begin
+
 After do |scenario|
+  
     if scenario.failed?
       $driver.quit
     end
-  end
-=end
 
+    if scenario.passed?
+      $driver.quit
+    end
+
+  end
+
+
+
+=begin
 After do 
     $driver.quit
   end
+=end
