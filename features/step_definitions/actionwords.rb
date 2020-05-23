@@ -2,7 +2,6 @@
 
 require "selenium-webdriver"
 require "rubygems"
-require "bundler"
 require "cucumber"
 
 module Actionwords
@@ -58,7 +57,7 @@ module Actionwords
       checkout_button = driver.find_element(:xpath, "/html/body/aside[2]/div/div[2]/div/div[1]/div[2]/div/div[2]/div[2]/a")
       checkout_button if checkout_button.displayed?
     }
-    puts "checkout button displayed- successful!" if validation
+    log("checkout button displayed- successful!") if validation
   end
 
   #fill out the rest when possible.
