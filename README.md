@@ -5,5 +5,5 @@
 *A not so elegent way of using Cucumber-Ruby with Selenium*
 <br>
 * Testing out some UI functionality of [the SmartStore](https://community.smartbear.com/t5/TestComplete-Community/ct-p/TestComplete_forum)
-* If exceptions and assertions are raised, the results can be automatically pushed back to the corresponding test runs within CucumberStudio using Hiptest Publisherss
+* If exceptions and assertions are raised, the results can be automatically pushed back to the corresponding test runs within CucumberStudio using Hiptest Publisher
 
