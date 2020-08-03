@@ -1,1 +1,1 @@
-default: --format message --out https://b1f2yk58d8.execute-api.eu-west-3.amazonaws.com/api/repository/5985db57-cb09-480d-8417-c797706ff8e4
+#default: --format message --out https://b1f2yk58d8.execute-api.eu-west-3.amazonaws.com/api/repository/5985db57-cb09-480d-8417-c797706ff8e4
