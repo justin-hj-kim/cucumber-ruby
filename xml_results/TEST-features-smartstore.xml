@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="0" errors="0" skipped="1" tests="4" time="38.445670" name="Smartstore">
-<testcase classname="Smartstore" name="Login Pass (uid:5fb71e05-20f0-447c-a5e7-88e685c2b7f1)" time="11.229549">
+<testsuite failures="1" errors="0" skipped="1" tests="4" time="33.135742" name="Smartstore">
+<testcase classname="Smartstore" name="Login Pass (uid:5fb71e05-20f0-447c-a5e7-88e685c2b7f1)" time="9.894596">
   <system-out>
     <![CDATA[]]>
   </system-out>
@@ -8,7 +8,7 @@
     <![CDATA[]]>
   </system-err>
 </testcase>
-<testcase classname="Smartstore" name="Login Fail (uid:499aed20-e212-4fc2-9b8e-79a16e8a88a5)" time="9.115665">
+<testcase classname="Smartstore" name="Login Fail (uid:499aed20-e212-4fc2-9b8e-79a16e8a88a5)" time="7.645548">
   <system-out>
     <![CDATA[]]>
   </system-out>
@@ -16,7 +16,22 @@
     <![CDATA[]]>
   </system-err>
 </testcase>
-<testcase classname="Smartstore" name="Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)" time="11.670200">
+<testcase classname="Smartstore" name="Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)" time="9.297343">
+  <failure message="failed Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)" type="failed">
+    <![CDATA[Scenario: Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)
+
+And adds it to the card
+
+Message:
+]]>
+    <![CDATA[Unable to locate element: //*[@id="pd-formm"]/section/aside/div[4]/div[3]/div/div[2]/a/span (Selenium::WebDriver::Error::NoSuchElementError)
+WebDriverError@chrome://marionette/content/error.js:175:5
+NoSuchElementError@chrome://marionette/content/error.js:387:5
+element.find/</<@chrome://marionette/content/element.js:330:16
+./features/step_definitions/actionwords.rb:52:in `adds_it_to_the_card'
+./features/step_definitions/step_definitions.rb:39:in `/^adds it to the card$/'
+features/smartstore.feature:24:in `adds it to the card']]>
+  </failure>
   <system-out>
     <![CDATA[]]>
   </system-out>
@@ -24,7 +39,7 @@
     <![CDATA[]]>
   </system-err>
 </testcase>
-<testcase classname="Smartstore" name="ContactUS (uid:2a71a9db-2887-4df9-95dd-ace88760a8a6)" time="6.430256">
+<testcase classname="Smartstore" name="ContactUS (uid:2a71a9db-2887-4df9-95dd-ace88760a8a6)" time="6.298256">
   <skipped/>
   <system-out>
     <![CDATA[]]>

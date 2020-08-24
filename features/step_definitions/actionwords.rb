@@ -49,7 +49,7 @@ module Actionwords
   end
 
   def adds_it_to_the_card
-    driver.find_element(:xpath, "//*[@id=\"pd-form\"]/section/aside/div[4]/div[3]/div/div[2]/a/span").click
+    driver.find_element(:xpath, "//*[@id=\"pd-formm\"]/section/aside/div[4]/div[3]/div/div[2]/a/span").click
   end
 
   def the_user_can_checkout_the_item
@@ -63,19 +63,19 @@ module Actionwords
   #fill out the rest when possible.
 
   def the_user_clicks_on_contact_us_button
-
+    raise RuntimeError.new("You messed up!")
   end
 
   def the_user_fills_out_the_name_email_and_inquiry_fields
-
+    raise StandardError.new "This is an exception"
   end
 
   def presses_submit
-
+    raise StandardError.new "This is an exception"
   end
 
   def the_store_should_display_a_successful_inquiry_message
-
+    raise StandardError.new "This is an exception"
   end
 end
 
