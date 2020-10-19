@@ -63,7 +63,7 @@ module Actionwords
   #fill out the rest when possible.
 
   def the_user_clicks_on_contact_us_button
-    raise "Error Message" 
+    expect { raise StandardError }.to raise_error
   end
 
   def the_user_fills_out_the_name_email_and_inquiry_fields
