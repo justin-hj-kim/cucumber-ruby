@@ -63,19 +63,19 @@ module Actionwords
   #fill out the rest when possible.
 
   def the_user_clicks_on_contact_us_button
-    raise "You messed up!"
+    raise "Error Message" 
   end
 
   def the_user_fills_out_the_name_email_and_inquiry_fields
-    raise StandardError.new "This is an exception"
+    raise "Error Message" 
   end
 
   def presses_submit
-    raise StandardError.new "This is an exception"
+    raise "Error Message" 
   end
 
   def the_store_should_display_a_successful_inquiry_message
-    raise StandardError.new "This is an exception"
+    raise "Error Message" 
   end
 end
 

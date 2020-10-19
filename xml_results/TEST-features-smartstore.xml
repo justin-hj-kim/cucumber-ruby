@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="1" errors="0" skipped="1" tests="4" time="33.135742" name="Smartstore">
-<testcase classname="Smartstore" name="Login Pass (uid:5fb71e05-20f0-447c-a5e7-88e685c2b7f1)" time="9.894596">
+<testsuite failures="1" errors="0" skipped="1" tests="4" time="34.935473" name="Smartstore">
+<testcase classname="Smartstore" name="Login Pass (uid:5fb71e05-20f0-447c-a5e7-88e685c2b7f1)" time="10.370554">
   <system-out>
     <![CDATA[]]>
   </system-out>
@@ -8,7 +8,7 @@
     <![CDATA[]]>
   </system-err>
 </testcase>
-<testcase classname="Smartstore" name="Login Fail (uid:499aed20-e212-4fc2-9b8e-79a16e8a88a5)" time="7.645548">
+<testcase classname="Smartstore" name="Login Fail (uid:499aed20-e212-4fc2-9b8e-79a16e8a88a5)" time="8.329982">
   <system-out>
     <![CDATA[]]>
   </system-out>
@@ -16,7 +16,7 @@
     <![CDATA[]]>
   </system-err>
 </testcase>
-<testcase classname="Smartstore" name="Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)" time="9.297343">
+<testcase classname="Smartstore" name="Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)" time="9.381218">
   <failure message="failed Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)" type="failed">
     <![CDATA[Scenario: Checkout (uid:8b5a4c86-f26c-4ecd-84a0-86524efab2cd)
 
@@ -39,7 +39,7 @@ features/smartstore.feature:24:in `adds it to the card']]>
     <![CDATA[]]>
   </system-err>
 </testcase>
-<testcase classname="Smartstore" name="ContactUS (uid:2a71a9db-2887-4df9-95dd-ace88760a8a6)" time="6.298256">
+<testcase classname="Smartstore" name="ContactUS (uid:2a71a9db-2887-4df9-95dd-ace88760a8a6)" time="6.853718">
   <skipped/>
   <system-out>
     <![CDATA[]]>
