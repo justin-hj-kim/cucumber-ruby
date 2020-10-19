@@ -8,5 +8,9 @@ After do |scenario|
     driver.quit
   end
 
+  if scenario.skipped?
+    expect { raise StandardError }.to raise_error
+  end
+  
 end
 
