@@ -48,8 +48,8 @@ module Actionwords
     driver.find_element(:class, "art-picture-block").click
   end
 
-  def adds_it_to_the_card
-    driver.find_element(:xpath, "//*[@id=\"pd-formm\"]/section/aside/div[4]/div[3]/div/div[2]/a/span").click
+  def adds_it_to_the_cart
+    driver.find_element(:css, "a.btn-primary > span:nth-child(2)").click
   end
 
   def the_user_can_checkout_the_item
@@ -63,19 +63,29 @@ module Actionwords
   #fill out the rest when possible.
 
   def the_user_clicks_on_contact_us_button
-    expect { raise StandardError }.to raise_error
+    driver.find_element(:xpath, "/html/body/div[1]/div[2]/header/div[1]/div/nav/nav[2]/a").click
+    #expect { raise StandardError }.to raise_error
+    #/html/body/div[1]/div[2]/header/div[1]/div/nav/nav[2]/a
+    #nav.menubar-group:nth-child(2) > a:nth-child(1)
   end
 
   def the_user_fills_out_the_name_email_and_inquiry_fields
-    raise "Error Message" 
+    driver.find_element(:xpath, "//*[@id=\"FullName\"]").send_keys("Justin Kim")
+    driver.find_element(:xpath, "//*[@id=\"Email\"]").send_keys("justin@smartbear.com")
+    driver.find_element(:xpath, "//*[@id=\"Enquiry\"]").send_keys("i need help please")
+    #raise "Error Message" 
   end
 
   def presses_submit
-    raise "Error Message" 
+    driver.find_element(:xpath, "/html/body/div[1]/div[2]/div/section/div/div/div/div[3]/form/div[4]/div/button").click
+    #raise "Error Message" 
   end
 
   def the_store_should_display_a_successful_inquiry_message
-    raise "Error Message" 
+    enquiry_message = driver.find_element(:xpath, "/html/body/div[1]/div[2]/div/section/div/div/div/div[3]/div").text
+    expect(enquiry_message) .to include("Your enquiry has been successfully sent to the store owner"), "Expected the message: Your enquiry has been successfully sent to the store owner, but it displayed #{enquiry_message}"
+    #/html/body/div[1]/div[2]/div/section/div/div/div/div[3]/div
+    #raise "Error Message" 
   end
 end
 

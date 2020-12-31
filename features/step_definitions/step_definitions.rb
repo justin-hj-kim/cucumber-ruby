@@ -35,20 +35,19 @@ When /^the user selects that item$/ do
   the_user_selects_that_item
 end
 
-When /^adds it to the card$/ do
-  adds_it_to_the_card
+When /^adds it to the cart$/ do
+  adds_it_to_the_cart
 end
 
 Then /^the user can checkout the item$/ do
   the_user_can_checkout_the_item
 end
 
-=begin
-Given /^the user clicks on contact us button$/ do
+Given /^the user clicks on contact us button$/ do 
   the_user_clicks_on_contact_us_button
 end
 
-When /^the user fills out the name, email, and inquiry fields$/ do
+When /^the user fills out the YourName, YourEmail, and YourEnquiry fields$/ do 
   the_user_fills_out_the_name_email_and_inquiry_fields
 end
 
@@ -59,4 +58,3 @@ end
 Then /^the store should display a successful inquiry message\.$/ do
   the_store_should_display_a_successful_inquiry_message
 end
-=end
