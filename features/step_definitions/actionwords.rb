@@ -89,10 +89,10 @@ module Actionwords
   end
 end
 
-
-#hiptest-publisher -c hiptest-publisher.conf --token=207233293921290597634285569888014368421957412936171795605 --only=features,step_definitions --test-run-id=389046
+#following are some commands you would typically use with hiptest publisher
+#hiptest-publisher -c hiptest-publisher.conf --token=207233293921290597634285569888014368421957412936171795605 --only=features,step_definitions --test-run-id=495826
 #cucumber --format json -o results.json
-#hiptest-publisher -c hiptest-publisher.conf --token=207233293921290597634285569888014368421957412936171795605  --push-format="cucumber-json" --push="results.json" --test-run-id=389046
+#hiptest-publisher -c hiptest-publisher.conf --token=207233293921290597634285569888014368421957412936171795605  --push-format="cucumber-json" --push="results.json" --test-run-id=495826
 
 #go to https://reports.cucumber.io/
 #cucumber --format message --out https://b1f2yk58d8.execute-api.eu-west-3.amazonaws.com/api/repository/5985db57-cb09-480d-8417-c797706ff8e4
